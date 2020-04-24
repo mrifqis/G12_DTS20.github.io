@@ -221,7 +221,7 @@ h1 {
 }	
 
 /* FOOTER */
-footer img {
+.footer-img {
   width: 170px;
   height: 170px;
 }
