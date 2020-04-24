@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Progate</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-left">
+          <img class="logo" src="https://prog-8.com/images/html/advanced/main_logo.png">
+        </div>
+        <!-- Tambahkan menu ikon dibaris bawah -->
+        <div class="header-right">
+          <a href="#">Home</a>
+          <a href="#">Product</a>
+          <a href="#">Company</a>
+          <a href="#">Blog</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="main"></br>
+        <div class="slideshow-container">
+
+            <div class="mySlides">
+                <img class= "imgSlideShow" src="https://66.media.tumblr.com/9b2a8328f34017adc9402c9a325d80d5/tumblr_ov2717V3rQ1tpjc42o4_500.png" alt="Lights" style="width:100%">
+            </div>
+        
+            <div class="mySlides">
+              <img class= "imgSlideShow" src="https://data.whicdn.com/images/304131944/original.jpg" style="width:100%">
+            </div>
+        
+            <div class="mySlides">
+              <img class= "imgSlideShow" src="https://data.whicdn.com/images/289021475/original.jpg" style="width:100%">
+            </div>
+        
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+        </div><br>
+        
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+        <div style="margin: 60px;">
+        <div class="grid-container">
+            
+            <div class="item2">
+                <img class="imgProfile" src="https://wiki.d-addicts.com/images/thumb/7/74/ParkBoGum2017.jpg/300px-ParkBoGum2017.jpg" alt="Lights" style="width:100%">
+                <p>Lorem ipsum, atau ringkasnya lipsum, adalah teks standar yang ditempatkan untuk mendemostrasikan elemen grafis</p>
+                <ul>
+                  <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                  <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+            <div class="item2">
+                <img class="imgProfile" src="https://asset.kompas.com/crop/90x0:690x800/300x400/data/photo/2017/09/06/2335068171.jpg" alt="Lights" style="width:100%">
+                <p>Lorem ipsum, atau ringkasnya lipsum, adalah teks standar yang ditempatkan untuk mendemostrasikan elemen grafis</p>
+                <ul>
+                  <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                  <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+            <div class="item2">
+                <img class="imgProfile" src="https://wowkeren.com/display/images/300x400/2020/01/19/00292884.jpg" alt="Lights" style="width:100%">
+                <p>Lorem ipsum, atau ringkasnya lipsum, adalah teks standar yang ditempatkan untuk mendemostrasikan elemen grafis</p>
+                <ul>
+                  <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                  <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+            <div class="item2">
+                <img class="imgProfile" src="https://m.wowkeren.com/display/images/300x400/2019/08/15/00268577e1.jpg" alt="Lights" style="width:100%">
+                <p>Lorem ipsum, atau ringkasnya lipsum, adalah teks standar yang ditempatkan untuk mendemostrasikan elemen grafis</p>
+                <ul>
+                  <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                  <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+            <div class="item2">
+                <img class="imgProfile" src="https://asset.kompas.com/crop/32x0:763x974/300x400/data/photo/2019/02/20/244422153.jpg" alt="Lights" style="width:100%">
+                <p class="underlined underlined--reverse">Lorem ipsum, atau ringkasnya lipsum, adalah teks standar yang ditempatkan untuk mendemostrasikan elemen grafis</p>
+                <ul>
+                  <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                  <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="daftar">
+      <h1 data-heading="Slide">Wanna Join Our Team ?</h1>
+    </div>
+
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+    
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+    
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+    
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {
+              slideIndex = 1
+          }
+          if (n < 1) {
+              slideIndex = slides.length
+          }
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex - 1].style.display = "block";
+          dots[slideIndex - 1].className += " active";
+        }
+      </script>
+  </body>
+</html>
