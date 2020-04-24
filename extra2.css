@@ -1,0 +1,74 @@
+.extra2 {
+    position: relative;
+}
+
+.extra2 h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+.extra2 p,
+.extra2 input{
+   text-align: center;
+}
+.extra2 p {
+    transform: translate(-10%);
+
+}
+.extra2 input {
+    width: 300px;
+    height: 32px;
+    margin-left: calc(50% - 150px);
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    text-align: left;
+
+    /* border */
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,.3);
+}
+
+.extra2 input:focus::placeholder {
+    opacity: .1;
+}
+
+.extra2 .btn {
+    border-radius: 2px;
+    cursor: pointer;
+    border: none;
+}
+.extra2 .btn.browse {
+    margin-left: 20px;
+    height: 28px;
+    width: 100px;
+}
+.extra2 .btn:active {
+    /* background-color: 5; */
+    -webkit-box-shadow: inset 2px 2px 4px rgba(0,0,0,.2);
+     -moz-box-shadow: inset 2px 2px 4px rgba(0,0,0,.2);
+          box-shadow: inset 2px 2px 4px rgba(0,0,0,.2);
+    /* box-shadow: 5px 5px 10px (0,0,0,.8); */
+}
+
+
+.btn.submit {
+   margin-left: 50%;
+   transform: translate(-50%);
+   margin-top: 32px;
+   width: 150px;
+   height: 30px;
+}
+
+
+/* Pengaturan untuk setiap web browser */
+/* Mozila */
+input::-moz-placeholder{
+    text-align: left;
+    opacity: .3;
+}
+input::-webkit-input-placeholder {
+    text-align: left;
+    opacity: .3;
+}
