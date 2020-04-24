@@ -1,0 +1,28 @@
+/* untuk tablet */
+@media all and (max-widht: 1000px) {
+    .top-wrapper h1 {
+        font-size: 32px;
+    }
+
+    .heading h2 {
+        font-size: 20px;
+    }
+
+    .lesson {
+        width: 50%;
+        margin-bottom: 50px;
+    }
+}
+
+/*untuk smartphone*/
+@media all and (max-width: 670px) {
+
+}
+
+.menu-icon {
+    display: block;
+}
+
+footer {
+    text-align: center;
+}
