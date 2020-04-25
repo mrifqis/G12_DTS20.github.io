@@ -1,5 +1,9 @@
 .extra2 {
     position: relative;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    color: #eee;
+    background-color: cornflowerblue;
 }
 
 .extra2 h2 {
@@ -14,6 +18,7 @@
 }
 .extra2 p {
     transform: translate(-10%);
+    margin-bottom: 15px;
 
 }
 .extra2 input {
@@ -24,10 +29,11 @@
     box-sizing: border-box;
     padding-left: 10px;
     text-align: left;
+    background-color: transparent;
 
     /* border */
     border: none;
-    border-bottom: 1px solid rgba(0,0,0,.3);
+    border-bottom: 1px solid rgba(255,255,255,.3);
 }
 
 .extra2 input:focus::placeholder {
@@ -38,6 +44,9 @@
     border-radius: 2px;
     cursor: pointer;
     border: none;
+    box-shadow: 2px 2px 6px rgba(0,0,0,.2),
+    -2px -2px 6px rgba(255,255,255,.4);
+    color: #405d27;
 }
 .extra2 .btn.browse {
     margin-left: 20px;
@@ -45,11 +54,9 @@
     width: 100px;
 }
 .extra2 .btn:active {
-    /* background-color: 5; */
     -webkit-box-shadow: inset 2px 2px 4px rgba(0,0,0,.2);
      -moz-box-shadow: inset 2px 2px 4px rgba(0,0,0,.2);
-          box-shadow: inset 2px 2px 4px rgba(0,0,0,.2);
-    /* box-shadow: 5px 5px 10px (0,0,0,.8); */
+    box-shadow: inset 2px 2px 4px rgba(0,0,0,.2);
 }
 
 
@@ -66,9 +73,11 @@
 /* Mozila */
 input::-moz-placeholder{
     text-align: left;
-    opacity: .3;
+    opacity: .6;
+    color: #fff;
 }
 input::-webkit-input-placeholder {
     text-align: left;
-    opacity: .3;
+    opacity: .6;
+    color: #fff;
 }
