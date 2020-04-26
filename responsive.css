@@ -41,6 +41,12 @@
         justify-content: center;
         grid-gap: 30px;
     }
+    .extra2 .form {
+        width: 60%;
+        padding-left: calc(1 * 8vw);
+        padding-right: calc(1* 1vw);
+        margin-bottom: 50px;
+    }
 }
 
 /*untuk smartphone*/
@@ -86,11 +92,14 @@
         line-height: 20px;
     }  
     
-    .extra2 {
+    .extra2 .form {
         width: 100%;
+        padding-left: calc(3 * 6vw);
+        padding-right: calc(2vw);
     }
 }
 
  footer {
     text-align: center;
+     transform: translate(-50%);
 }
