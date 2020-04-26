@@ -30,6 +30,10 @@ header {
     float: left;
     margin-left: -10px;
   }
+  .header-left .logo {
+    height: 45px;
+    margin: 10px;
+  }
   
   .header-right {
     float: right;
