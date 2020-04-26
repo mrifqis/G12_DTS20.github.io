@@ -14,7 +14,6 @@
     
     .mySlides h2 {
         font-size: 25px;
-        line-height: 20px;
     }
     
     .imgProfile {
@@ -55,7 +54,7 @@
          display: none;
     }
     
-    .menu-icon {
+    .fa.menu-icon {
          display: block;
     }
     
