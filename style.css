@@ -51,7 +51,7 @@ header {
     color: #fff;
   }
 
-.menu-icon {
+ .fa.menu-icon {
   color: white;
   float: right;
   font-size: 25px;
