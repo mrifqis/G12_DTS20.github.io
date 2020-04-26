@@ -34,7 +34,8 @@
     
     
     .grid-container {
-        display: grid;
+        display: flex;
+        flex-wrap: wrap;
         padding: 10px;
         margin: 30px;
         justify-content: center;
