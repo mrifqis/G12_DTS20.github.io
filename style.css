@@ -137,7 +137,7 @@ header {
     border-radius: 50%;
     display: inline-block;
     border: 2px solid #eee;
-    transition: background-color 0.6s ease;
+    transition: 0.6s ease;
     margin-right: 24px;
     margin-top: 16px
 }
@@ -178,6 +178,7 @@ header {
 
 .grid-container {
     display: flex;
+    flex-wrap: wrap;
     grid-template-columns: auto auto auto;
     grid-gap: 60px;
     padding: 10px;
@@ -308,6 +309,7 @@ footer {
   top: -30px;
   width: 120px;
   height: 120px;
+  transform: translate(-50%);
 }
 
  footer p {
