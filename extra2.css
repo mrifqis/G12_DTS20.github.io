@@ -11,6 +11,14 @@
     margin-bottom: 60px;
 }
 
+.extra2 .form {
+    text-align: left;
+    margin: auto;
+    width: 50%;
+    padding-left: 5vw;
+    box-sizing: border-box;
+}
+
 .extra2 p,
 .extra2 input{
    text-align: center;
