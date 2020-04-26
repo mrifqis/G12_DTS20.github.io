@@ -152,8 +152,13 @@ header {
 .imgProfile {
         width: 300px;
         height: 300px;
-      
 }
+
+.item2 {
+	float: left;
+	width: 20%;
+}
+
 .profile {
   padding-top: 40px;
   background-color: #ddd;
