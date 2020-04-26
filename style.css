@@ -50,6 +50,15 @@ header {
     background-color: rgba(255, 255, 255, 0.3);
     color: #fff;
   }
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
   .container {
     max-width: 1170px;
     padding: 0 15px;
