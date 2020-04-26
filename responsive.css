@@ -36,6 +36,10 @@
         width: 50%;
         margin-bottom: 50px;
     }
+    
+    .grid-container {
+        display: grid;
+    }
 }
 
 /*untuk smartphone*/
