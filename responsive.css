@@ -1,5 +1,5 @@
 /* untuk tablet */
-@media all and (max-widht: 1000px) {
+@media all and (max-width: 1000px) {
     .top-wrapper h1 {
         font-size: 32px;
     }
