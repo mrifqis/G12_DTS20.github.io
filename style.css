@@ -305,3 +305,11 @@ footer {
   color: #262626;
   font-size: 15px;
 }
+
+.menu-icon {
+	color: #ffffff;
+	float: right;
+	font-size: 25px;
+	padding: 21px 0;
+	display: none;
+}
