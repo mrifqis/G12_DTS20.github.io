@@ -93,8 +93,14 @@
     
     .extra2 .form {
         width: 100%;
-        padding-left: calc(3 * 6vw);
+        padding-left: 20px;
         padding-right: calc(2vw);
+    }
+    .extra2 .form input {
+        width: 250px;
+    }
+    .btn.submit {
+        transform: translate(-50%);
     }
 }
 
